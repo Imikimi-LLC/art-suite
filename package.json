@@ -4,6 +4,7 @@
   "description": "art-suite",
   "main": "index.coffee",
   "dependencies": {
+    "neptune-namespaces": "git://github.com/Imikimi-LLC/neptune-namespaces.git",
     "art-foundation": "git://github.com/Imikimi-LLC/art-foundation.git",
     "art-canvas":     "git://github.com/Imikimi-LLC/art-canvas.git",
     "art-events":     "git://github.com/Imikimi-LLC/art-events.git",
