@@ -1,21 +1,20 @@
 {
   "name": "art-suite",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "art-suite",
   "main": "index.coffee",
   "dependencies": {
     "neptune-namespaces": "git://github.com/Imikimi-LLC/neptune-namespaces.git",
     "art-foundation": "git://github.com/Imikimi-LLC/art-foundation.git",
-    "art-canvas":     "git://github.com/Imikimi-LLC/art-canvas.git",
-    "art-events":     "git://github.com/Imikimi-LLC/art-events.git",
-    "art-xbd":        "git://github.com/Imikimi-LLC/art-xbd.git",
-    "art-text":       "git://github.com/Imikimi-LLC/art-text.git",
-    "art-engine":     "git://github.com/Imikimi-LLC/art-engine.git",
-    "art-react":      "git://github.com/Imikimi-LLC/art-react.git",
-    "art-flux":       "git://github.com/Imikimi-LLC/art-flux.git"
+    "art-canvas": "git://github.com/Imikimi-LLC/art-canvas.git",
+    "art-events": "git://github.com/Imikimi-LLC/art-events.git",
+    "art-xbd": "git://github.com/Imikimi-LLC/art-xbd.git",
+    "art-text": "git://github.com/Imikimi-LLC/art-text.git",
+    "art-engine": "git://github.com/Imikimi-LLC/art-engine.git",
+    "art-react": "git://github.com/Imikimi-LLC/art-react.git",
+    "art-flux": "git://github.com/Imikimi-LLC/art-flux.git"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "webpack-dev-server -d --progress"
   },
