@@ -2,5 +2,4 @@
 # file: art/suite/index.coffee
 
 module.exports = require './namespace'
-.addModules
-  All: require './all'
+.includeInNamespace require './_suite'

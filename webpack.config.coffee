@@ -3,3 +3,12 @@ module.exports = (require "art-foundation/configure_webpack")
   dirname: __dirname
   package:
     author: "author": "Shane Brinkman-Davis Delamore"
+    dependencies:
+      "art-foundation": "git://github.com/Imikimi-LLC/art-foundation.git"
+      "art-canvas":     "git://github.com/Imikimi-LLC/art-canvas.git"
+      "art-events":     "git://github.com/Imikimi-LLC/art-events.git"
+      "art-xbd":        "git://github.com/Imikimi-LLC/art-xbd.git"
+      "art-text":       "git://github.com/Imikimi-LLC/art-text.git"
+      "art-engine":     "git://github.com/Imikimi-LLC/art-engine.git"
+      "art-react":      "git://github.com/Imikimi-LLC/art-react.git"
+      "art-flux":       "git://github.com/Imikimi-LLC/art-flux.git"
