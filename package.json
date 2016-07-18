@@ -1,7 +1,5 @@
 {
-  "author": {
-    "author": "Shane Brinkman-Davis Delamore"
-  },
+  "author": "Shane Brinkman-Davis Delamore, Imikimi-LLC",
   "dependencies": {
     "art-canvas": "git://github.com/Imikimi-LLC/art-canvas.git",
     "art-engine": "git://github.com/Imikimi-LLC/art-engine.git",
@@ -24,6 +22,7 @@
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.0"
   },
+  "description": "All the Art.* Packages you need for writing Apps in one require.",
   "license": "ISC",
   "name": "art-suite",
   "scripts": {

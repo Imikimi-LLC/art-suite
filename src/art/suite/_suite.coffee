@@ -1,22 +1,20 @@
-Foundation = require 'art-foundation'
-Atomic = require 'art-atomic'
-Canvas = require 'art-canvas'
-Engine = require 'art-engine'
-React = require 'art-react'
-Flux = require 'art-flux'
+{merge} = Foundation = require 'art-foundation'
 
-module.export = [
-  Foundation
-  Atomic
-  Canvas
-  Engine
-  React
-  Flux
+module.exports = [
 
-  Foundation: Foundation
-  Atomic: Atomic
-  Canvas: Canvas
-  Engine: Engine
-  React: React
-  Flux: Flux
+  # using merge because we are OK with
+  # ignoring values from multiple same-named props
+  merge Foundation,
+    Atomic = require 'art-atomic'
+    Canvas = require 'art-canvas'
+    Engine = require 'art-engine'
+    React = require 'art-react'
+    Flux = require 'art-flux'
+
+    Foundation: Foundation
+    Atomic: Atomic
+    Canvas: Canvas
+    Engine: Engine
+    React: React
+    Flux: Flux
 ]

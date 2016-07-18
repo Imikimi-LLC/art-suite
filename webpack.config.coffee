@@ -2,7 +2,7 @@ module.exports = (require "art-foundation/configure_webpack")
   entries: "index test"
   dirname: __dirname
   package:
-    author: "author": "Shane Brinkman-Davis Delamore"
+    description: "All the Art.* Packages you need for writing Apps in one require."
     dependencies:
       "art-foundation": "git://github.com/Imikimi-LLC/art-foundation.git"
       "art-canvas":     "git://github.com/Imikimi-LLC/art-canvas.git"
