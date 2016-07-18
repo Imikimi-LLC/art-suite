@@ -1,5 +1,3 @@
-ArtSuite = require './namespace'
-
 Foundation = require 'art-foundation'
 Atomic = require 'art-atomic'
 Canvas = require 'art-canvas'
@@ -7,7 +5,7 @@ Engine = require 'art-engine'
 React = require 'art-react'
 Flux = require 'art-flux'
 
-module.export = Foundation.mergeInto ArtSuite,
+module.export = [
   Foundation
   Atomic
   Canvas
@@ -21,3 +19,4 @@ module.export = Foundation.mergeInto ArtSuite,
   Engine: Engine
   React: React
   Flux: Flux
+]
