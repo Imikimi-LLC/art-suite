@@ -12,3 +12,4 @@ module.exports = (require "art-foundation/configure_webpack")
       "art-engine":     "git://github.com/imikimi/art-engine.git"
       "art-react":      "git://github.com/imikimi/art-react.git"
       "art-flux":       "git://github.com/imikimi/art-flux.git"
+      "art-ery":        "git://github.com/imikimi/art-ery.git"
