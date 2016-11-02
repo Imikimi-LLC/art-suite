@@ -13,6 +13,8 @@ module.exports = [
     ArtEry      = require 'art-ery'
     ArtEryFlux  = require 'art-ery/flux'
 
+    require 'art-react/mixins'
+
     Foundation: Foundation
     Atomic:     Atomic
     Canvas:     Canvas
