@@ -8,8 +8,6 @@ module.exports =
     Atomic      = require 'art-atomic'
     ArtEry      = require 'art-ery'
 
-    require 'art-react/mixins'
-
     Foundation: Foundation
     Atomic:     Atomic
     ArtEry:     ArtEry
