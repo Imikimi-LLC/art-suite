@@ -10,6 +10,7 @@
     "art-react": "git://github.com/imikimi/art-react.git",
     "art-text": "git://github.com/imikimi/art-text.git",
     "art-xbd": "git://github.com/imikimi/art-xbd.git",
+    "case-sensitive-paths-webpack-plugin": "^1.1.4",
     "chai": "^3.5.0",
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.11.1",
@@ -27,10 +28,11 @@
   "license": "ISC",
   "name": "art-suite",
   "scripts": {
+    "build": "neptune-namespaces --std; webpack --progress",
     "dev": "neptune-namespaces --std; webpack-dev-server -d --progress",
     "hot": "neptune-namespaces --std; webpack-dev-server --hot --inline --progress",
     "nn": "neptune-namespaces --std",
-    "nodeTest": "neptune-namespaces --std;mocha -u tdd --compilers coffee:coffee-script/register",
+    "nodeTest": "neptune-namespaces --std; mocha -u tdd --compilers coffee:coffee-script/register",
     "test": "neptune-namespaces --std; webpack-dev-server -d --progress"
   },
   "version": "1.1.2"

@@ -2,4 +2,4 @@
 # file: tests/index.coffee
 
 module.exports = require './namespace'
-require './art'
+require './Art'

@@ -11,7 +11,7 @@ module.exports = [
     React       = require 'art-react'
     Flux        = require 'art-flux'
     ArtEry      = require 'art-ery'
-    ArtEryFlux  = require 'art-ery/flux'
+    ArtEryFlux  = require 'art-ery/Flux'
 
     require 'art-react/mixins'
 
