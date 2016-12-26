@@ -23,4 +23,6 @@ module.exports = [
     Flux:       Flux
     ArtEry:     ArtEry
     Ery:        ArtEry
+
+  InitArtSuiteApp: React.InitArtReactApp
 ]
