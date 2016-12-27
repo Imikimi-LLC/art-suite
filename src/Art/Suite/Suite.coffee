@@ -24,5 +24,5 @@ module.exports = [
     ArtEry:     ArtEry
     Ery:        ArtEry
 
-  InitArtSuiteApp: React.InitArtReactApp
+  initArtSuiteApp: React.initArtReactApp
 ]
