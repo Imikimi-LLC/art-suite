@@ -10,30 +10,29 @@
     "art-react": "git://github.com/imikimi/art-react.git",
     "art-text": "git://github.com/imikimi/art-text.git",
     "art-xbd": "git://github.com/imikimi/art-xbd.git",
+    "bluebird": "^3.4.7",
     "case-sensitive-paths-webpack-plugin": "^1.1.4",
     "chai": "^3.5.0",
     "coffee-loader": "^0.7.2",
-    "coffee-script": "^1.11.1",
-    "css-loader": "^0.23.1",
+    "coffee-script": "^1.12.3",
+    "css-loader": "^0.26.1",
     "json-loader": "^0.5.4",
-    "mocha": "^2.5.3",
-    "neptune-namespaces": "^1.5.0",
+    "mocha": "^3.2.0",
+    "neptune-namespaces": "^1.7.4",
     "script-loader": "^0.7.0",
-    "sourcemapped-stacktrace": "^1.1.3",
+    "sourcemapped-stacktrace": "^1.1.5",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.2"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
   },
   "description": "All the Art.* Packages you need for writing Apps in one require.",
   "license": "ISC",
   "name": "art-suite",
   "scripts": {
-    "build": "neptune-namespaces --std; webpack --progress",
-    "dev": "neptune-namespaces --std; webpack-dev-server -d --progress",
-    "hot": "neptune-namespaces --std; webpack-dev-server --hot --inline --progress",
-    "nn": "neptune-namespaces --std",
-    "nodeTest": "neptune-namespaces --std; mocha -u tdd --compilers coffee:coffee-script/register",
-    "test": "neptune-namespaces --std; webpack-dev-server -d --progress"
+    "build": "webpack --progress",
+    "nodeTest": "nn -s; mocha -u tdd --compilers coffee:coffee-script/register",
+    "start": "webpack-dev-server --hot --inline --progress",
+    "test": "webpack-dev-server -d --progress"
   },
   "version": "1.3.0"
 }
