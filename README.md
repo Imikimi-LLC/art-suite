@@ -18,4 +18,6 @@ Sub goals include:
 * maximum extensibility at all levels
 * built on ubiquitous standards (Javascript and HTMLCanvas)
 
-## visit: [The ArtSuite Wiki](https://github.com/imikimi/art-suite/wiki) for more
+### [The ArtSuite Wiki](https://github.com/imikimi/art-suite/wiki)
+
+Go to the [Wiki](https://github.com/imikimi/art-suite/wiki) for documentation and more.
