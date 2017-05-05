@@ -21,3 +21,7 @@ Sub goals include:
 ### [The ArtSuite Wiki](https://github.com/imikimi/art-suite/wiki)
 
 Go to the [Wiki](https://github.com/imikimi/art-suite/wiki) for documentation and more.
+
+### Live Demo
+
+Try the live demos: [Art Suite Demos](http://imikimi.github.io/art-suite-demos/) ([source](https://github.com/imikimi/art-suite-demos))
