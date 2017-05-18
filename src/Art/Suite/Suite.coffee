@@ -5,6 +5,7 @@ module.exports = [
   # using merge because we are OK with
   # ignoring values from multiple same-named props
   merge Foundation,
+    require 'art-communication-status'
     Atomic      = require 'art-atomic'
     Canvas      = require 'art-canvas'
     Engine      = require 'art-engine'
