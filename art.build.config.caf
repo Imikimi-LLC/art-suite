@@ -1,0 +1,27 @@
+target:
+  ##
+    configures for standard node-targeted library
+    NOTE: node-targeted libraries can also be built into broswer-targeted libraries.
+      They just can't be used *directly* in the browser
+  node: true
+
+npm:
+  description: "" All the Art.* Packages you need for writing Apps in one require.
+  dependencies:
+    art-canvas:     "" git://github.com/imikimi/art-canvas.git
+    art-engine:     "" git://github.com/imikimi/art-engine.git
+    art-ery:        "" git://github.com/imikimi/art-ery.git
+    art-events:     "" git://github.com/imikimi/art-events.git
+    art-flux:       "" git://github.com/imikimi/art-flux.git
+    art-foundation: "" git://github.com/imikimi/art-foundation.git
+    art-react:      "" git://github.com/imikimi/art-react.git
+    art-text:       "" git://github.com/imikimi/art-text.git
+    art-xbd:        "" git://github.com/imikimi/art-xbd.git
+    art-validator:  "" git://github.com/art-suite/art-validator.git
+
+webpack:
+  # common properties are merged into each target's properties
+  common: {}
+
+  # each target's individual properties
+  targets: index: {}
