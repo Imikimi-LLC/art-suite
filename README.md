@@ -26,4 +26,4 @@ Go to the [Wiki](https://github.com/imikimi/art-suite/wiki) for documentation an
 
 Try the live demos: [Art Suite Demos](http://imikimi.github.io/art-suite-demos/) ([source](https://github.com/imikimi/art-suite-demos))
 
-You can also see an in-production application here: [imikimi.com](http://imikimi.com/#panels[0][url]=%2Fbrowse%2Fhome&panels[0][context]=Welcome&panels[0][title]=Home&panels[0][width]=auto&panels[0][current]=false&panels[1][url]=%2Fbrowse%2Fkimi_view%3Fid%3DuAP1-1eY&panels[1][context]=Kimi%20Frame&panels[1][title]=Me%2Croses%20and%20t...&panels[1][width]=455&panels[1][current]=true). Click the "ADD MY PHOTOS" button. The pop-up editor is written in the ArtSuite. For an even more elaborate example, click the "more" menu at the top and select "Kimi Frame Maker."
+You can also see an in-production application here: [imikimi.com](http://imikimi.com/). Click the "ADD MY PHOTOS" button. Click the "more" menu at the top and select "Kimi Frame Maker." The pop-over image editor is written 100% in ArtSuite.
