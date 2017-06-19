@@ -22,8 +22,23 @@ Sub goals include:
 
 Go to the [Wiki](https://github.com/imikimi/art-suite/wiki) for documentation and more.
 
-### Live Demo
+### Demos Live, on the Web
 
-Try the live demos: [Art Suite Demos](http://imikimi.github.io/art-suite-demos/) ([source](https://github.com/imikimi/art-suite-demos))
+[Launch Art Suite Demos](http://imikimi.github.io/art-suite-demos/) ([github](https://github.com/imikimi/art-suite-demos))
 
 You can also see an in-production application here: [imikimi.com](http://imikimi.com/). Click the "ADD MY PHOTOS" button. Click the "more" menu at the top and select "Kimi Frame Maker." The pop-over image editor is written 100% in ArtSuite.
+
+### Documentation
+
+The ArtSuite doc is on primarily on Github in the READMEs and wikis of each package. The documentation is far from complete, so you please also check out the many available examples. Also, all the ArtSuite packages are well tested. These tests are considered the definitive documentation, and, therefor, they are designed to be as readable as possible.
+
+### ArtSuite Examples
+
+The ArtSuiteDemos is an 
+
+* [ArtSuiteDemos](https://github.com/imikimi/art-suite-demos) is an extensive and growing collection of demos showing off every aspect of the ArtSuite's UI aspects: ArtEngine, ArtReact and ArtFlux.
+* [ArtSuiteTutorial](https://github.com/imikimi/art-suite-tutorial) is a multi-step tutorial showcasing how to build a working chat app, step by step.
+
+### Write Your App
+
+To get started writing your own app, use the [ArtBuildConfigurator](https://github.com/imikimi/art-build-configurator).
