@@ -1,22 +1,12 @@
 {merge, isNode} = require 'art-standard-lib'
+if isNode
+  throw new Error "For Node, use: art-suite/Node"
 
-core =
-  merge Foundation,
-    Foundation              = require 'art-foundation'
-    StandardLib             = require 'art-standard-lib'
-    Atomic                  = require 'art-atomic'
-    Ery                     = require 'art-ery'
-    CommunicationStatus     = require 'art-communication-status'
-
-    {Foundation, StandardLib, Atomic, Ery, CommunicationStatus}
-
-module.exports = if isNode
-  core
-else
+module.exports =
   [
     # using merge because we are OK with
     # ignoring values from multiple same-named props
-    merge core,
+    merge (require './Core'),
       Canvas      = require 'art-canvas'
       Engine      = require 'art-engine'
       React       = require 'art-react'
