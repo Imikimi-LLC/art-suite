@@ -4,3 +4,5 @@
 module.exports = require './namespace'
 module.exports
 .includeInNamespace require './Suite'
+.addModules
+  Core: require './Core'

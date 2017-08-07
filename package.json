@@ -44,10 +44,13 @@
   "description": "All the Art.* Packages you need for writing Apps in one require.",
   "license": "ISC",
   "name": "art-suite",
+  "script": {
+    "testInBrowser": "webpack-dev-server --progress"
+  },
   "scripts": {
     "build": "webpack --progress",
     "start": "webpack-dev-server --hot --inline --progress",
-    "test": "nn -s;mocha -u tdd --compilers coffee:coffee-script/register",
+    "test": "webpack-dev-server --progress",
     "testInBrowser": "webpack-dev-server --progress"
   },
   "version": "1.5.0"

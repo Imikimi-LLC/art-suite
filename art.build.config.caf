@@ -1,9 +1,9 @@
-target:
-  ##
-    configures for standard node-targeted library
-    NOTE: node-targeted libraries can also be built into broswer-targeted libraries.
-      They just can't be used *directly* in the browser
-  node: true
+# target:
+#   ##
+#     configures for standard node-targeted library
+#     NOTE: node-targeted libraries can also be built into broswer-targeted libraries.
+#       They just can't be used *directly* in the browser
+#   node: true
 
 npm:
   description: "" All the Art.* Packages you need for writing Apps in one require.
@@ -18,10 +18,13 @@ npm:
     art-text:       "" git://github.com/imikimi/art-text.git
     art-xbd:        "" git://github.com/imikimi/art-xbd.git
     art-validation: :*
+  script:
+    testInBrowser: "" webpack-dev-server --progress
 
 webpack:
   # common properties are merged into each target's properties
   common: {}
 
   # each target's individual properties
-  targets: index: {}
+  targets:
+    test: {}
