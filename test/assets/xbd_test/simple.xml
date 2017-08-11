@@ -1,0 +1,6 @@
+<top_tag animal="(ᵔᴥᵔ)" fruit="orange">
+  <child_tag1 fruit="apple"/>
+  <child_tag2 planet="mars">
+    <grand_child_tag animal="horse" color="red"/>
+  </child_tag2>
+</top_tag>
