@@ -53,5 +53,5 @@
     "test": "webpack-dev-server --progress",
     "testInBrowser": "webpack-dev-server --progress"
   },
-  "version": "1.5.1"
+  "version": "1.6.0"
 }
