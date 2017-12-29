@@ -3,12 +3,11 @@
 module.exports =
   merge Foundation,
     Foundation              = require 'art-foundation'
-    ArtClassSystem          = require 'art-class-system'
+    ClassSystem             = require 'art-class-system'
     Atomic                  = require 'art-atomic'
     Ery                     = require 'art-ery'
     CommunicationStatus     = require 'art-communication-status'
-    ArtRestClient           = require 'art-rest-client'
-    ArtAtomic               = require 'art-atomic'
+    RestClient              = require 'art-rest-client'
     StandardLib             = require 'art-standard-lib'
 
     {
@@ -17,6 +16,5 @@ module.exports =
       Atomic
       Ery
       CommunicationStatus
-      ArtRestClient
-      ArtAtomic
+      RestClient
     }
