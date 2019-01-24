@@ -1,7 +1,7 @@
-{merge, isNode} = require 'art-standard-lib'
+{merge} = require 'art-standard-lib'
 
 module.exports =
-  merge Foundation,
+  merge null,
     Foundation              = require 'art-foundation'
     ClassSystem             = require 'art-class-system'
     Atomic                  = require 'art-atomic'
@@ -9,8 +9,10 @@ module.exports =
     CommunicationStatus     = require 'art-communication-status'
     RestClient              = require 'art-rest-client'
     StandardLib             = require 'art-standard-lib'
+    Config                  = require 'art-config'
 
-    {
+    { # Why are we doing this again? You can get at all these via Npetune.Art.*
+      # Config - don't do this, we need the Config object from ArtConfig
       Foundation
       StandardLib
       Atomic
