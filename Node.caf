@@ -1,0 +1,3 @@
+&ArtStandardLib.mergeInto
+  &source/ArtSuite/namespace
+  &source/ArtSuite/Core
