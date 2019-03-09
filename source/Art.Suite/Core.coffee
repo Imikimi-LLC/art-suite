@@ -10,6 +10,7 @@ module.exports =
     RestClient              = require 'art-rest-client'
     StandardLib             = require 'art-standard-lib'
     Config                  = require 'art-config'
+    Binary                  = require 'art-binary'
 
     { # Why are we doing this again? You can get at all these via Npetune.Art.*
       # Config - don't do this, we need the Config object from ArtConfig
@@ -19,4 +20,5 @@ module.exports =
       Ery
       CommunicationStatus
       RestClient
+      Binary
     }
