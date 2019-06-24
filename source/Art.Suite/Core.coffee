@@ -9,7 +9,6 @@ module.exports =
     CommunicationStatus     = require 'art-communication-status'
     RestClient              = require 'art-rest-client'
     StandardLib             = require 'art-standard-lib'
-    Config                  = require 'art-config'
     Binary                  = require 'art-binary'
 
     { # Why are we doing this again? You can get at all these via Npetune.Art.*
@@ -22,3 +21,4 @@ module.exports =
       RestClient
       Binary
     }
+    require 'art-config'

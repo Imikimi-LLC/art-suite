@@ -17,6 +17,8 @@ module.exports = suite =
 
     initArtSuiteApp: React.initArtReactApp
 
+    require 'art-config'
+
 global.artSuite = suite
 if suite.getEnv().dev
   global.log = suite.log
