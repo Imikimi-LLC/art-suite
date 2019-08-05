@@ -7,7 +7,7 @@
     "art-canvas": "git://github.com/imikimi/art-canvas.git",
     "art-engine": "*",
     "art-ery": "*",
-    "art-events": "git://github.com/imikimi/art-events.git",
+    "art-events": "*",
     "art-flux": "git://github.com/imikimi/art-flux.git",
     "art-foundation": "git://github.com/imikimi/art-foundation.git",
     "art-react": "git://github.com/imikimi/art-react.git",
