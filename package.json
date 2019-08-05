@@ -1,10 +1,12 @@
 {
-  "author": "Shane Brinkman-Davis Delamore, Imikimi LLC",
+  "author": "Shane Brinkman-Davis Delamore, Imikimi LLC\"",
   "dependencies": {
+    "art-atomic": "*",
+    "art-browser-tools": "*",
     "art-build-configurator": "*",
     "art-canvas": "git://github.com/imikimi/art-canvas.git",
-    "art-engine": "git://github.com/imikimi/art-engine.git",
-    "art-ery": "git://github.com/imikimi/art-ery.git",
+    "art-engine": "*",
+    "art-ery": "*",
     "art-events": "git://github.com/imikimi/art-events.git",
     "art-flux": "git://github.com/imikimi/art-flux.git",
     "art-foundation": "git://github.com/imikimi/art-foundation.git",
@@ -21,9 +23,8 @@
   },
   "scripts": {
     "build": "webpack --progress",
-    "start": "webpack-dev-server --hot --inline --progress",
-    "test": "webpack-dev-server  --progress",
-    "testInBrowser": "webpack-dev-server --progress"
+    "start": "webpack-dev-server --hot --inline --progress --env.devServer",
+    "test": "webpack-dev-server  --progress --env.devServer"
   },
   "version": "1.9.2"
 }
