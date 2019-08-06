@@ -1,3 +1,2 @@
-&ArtStandardLib.mergeInto
-  &source/ArtSuite/namespace
-  &source/ArtSuite/Core
+&source/ArtSuite/namespace
+.includeInNamespace &source/ArtSuite/Core
