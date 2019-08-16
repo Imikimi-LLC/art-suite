@@ -7,12 +7,13 @@ font author: Brian Zick
 font author site: https://brianskywalker.deviantart.com/
 Slogan Font: Neuton-Extralight.ttf
 
-icon designer: Jakob Vogel
-icon designer link: /jakobvogel
-        
+icon designer: Julien Meysmans
+icon designer link:
+  Penrose Triangle
+  https://thenounproject.com/M_Julz/uploads/?i=70648
+
 
 fontColor: {"gradient-0":"#850519","gradient-1":"#EB6B7F"}
 bgColor: {"hex":"transparent"}
 iconColor: {"gradient-0":"#850519","gradient-1":"#EB6B7F"}
 sloganColor: {"hex":"#000000"}
-      
