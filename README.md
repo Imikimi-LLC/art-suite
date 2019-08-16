@@ -1,10 +1,21 @@
-# ArtSuite: [ZEN](http://www.essenceandartifact.com/2016/02/yagni-and-building-in-house-frameworks.html) Apps for Web and Mobile
+![alt text](assets/cover-cropped.png "Logo Title Text 1")
+# ArtSuiteJS - for beautifully designed apps
+
+We love beautifully designed apps. If you care about design as much as we do, you want a framework that not only provides exquisite defaults layouts and widgets for rapid prototyping, but also total, utter control down to the last pixel bringing your uncompromising vision to life.
+
+The framework itself should be extremely well designed. Our number one design value is less is more. 
 
 If your website has a login, has any dynamically generated web pages, or otherwise has a non-trivial amount of code, you are writing an app, not a collection of documents. HTML is an [flying-submarine](https://en.wikipedia.org/wiki/Flying_submarine). I.e, it's trying to do two things at the same time which are fundamentally different: be a document format and an app framework. It is impossible to do both those things well at the same time.
 
-Enter Art.Suite, a modern, clean, canvas and JavaScript-based framework for writing web-apps without HTML. Not only can you write full-featured, responsive web-apps with ease, you can also deploy high quality hybrid Android and iOS apps with 90%+ code reuse.
+Enter ArtSuiteJS, a modern, clean, canvas and JavaScript-based framework for writing web-apps without HTML. Not only can you write full-featured, responsive web-apps with ease, you can also deploy high quality hybrid Android and iOS apps with 90%+ code reuse.
 
-### What is the Art.Suite?
+* what
+* how
+* why
+
+[ZEN](http://www.essenceandartifact.com/2016/02/yagni-and-building-in-house-frameworks.html) Apps for Web and Mobile
+
+### What is the ArtSuiteJS?
 
 A collection of tools with two main goals:
 
