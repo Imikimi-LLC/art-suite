@@ -55,6 +55,16 @@ Last, ArtEry was inspired mostly by Parse.com, now at https://parseplatform.org/
 > *Modular:* ArtEry is perhaps the most modular of all. It's just a tool for organizing, unifying and simplifying all your remote services. Use it where it makes sense, or don't use it all. 
 > *Integration:* ArtEry and ArtFlux are tightly integrated if you use both. Define an ArtEry pipeline and get the associated ArtFlux model for free. One source file defines both. The result is your front end can subscribe to any data anywhere in the world with a single, declarative statement.
 
+# Install
+
+You can install the art-suite core with npm:
+
+```
+npm install art-suite
+```
+
+But the best way to get started is to use the `art-build-configurator` to genereate a starting project. Learn more here: [ArtBuildConfigurator](https://github.com/imikimi/art-build-configurator).
+
 # Try ArtSuiteJS
 
 [Launch Art Suite Demos](http://imikimi.github.io/art-suite-demos/) ([github](https://github.com/imikimi/art-suite-demos))
@@ -73,7 +83,3 @@ The ArtSuite doc is on primarily on Github in the READMEs and wikis of each pack
 ## [The ArtSuite Wiki](https://github.com/imikimi/art-suite/wiki)
 
 Go to the [Wiki](https://github.com/imikimi/art-suite/wiki) for documentation and more.
-
-### Write Your App
-
-To get started writing your own app, use the [ArtBuildConfigurator](https://github.com/imikimi/art-build-configurator).
