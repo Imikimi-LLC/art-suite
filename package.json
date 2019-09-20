@@ -1,5 +1,6 @@
 {
-  "author": "Shane Brinkman-Davis Delamore, Imikimi LLC\"",
+  "author": "Shane Brinkman-Davis Delamore, Imikimi LLC",
+  "bugs": "https:/github.com/art-suite/art-suite/issues",
   "dependencies": {
     "art-atomic": "*",
     "art-browser-tools": "*",
@@ -8,16 +9,38 @@
     "art-engine": "*",
     "art-ery": "*",
     "art-events": "*",
-    "art-flux": "git://github.com/imikimi/art-flux.git",
-    "art-foundation": "git://github.com/imikimi/art-foundation.git",
-    "art-react": "git://github.com/imikimi/art-react.git",
+    "art-flux": "*",
+    "art-react": "*",
     "art-text": "git://github.com/imikimi/art-text.git",
     "art-validation": "*",
     "art-xbd": "git://github.com/imikimi/art-xbd.git"
   },
   "description": "All the Art.* Packages you need for writing Apps in one require.",
+  "devDependencies": {
+    "art-testbench": "*",
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
+    "chai": "^4.2.0",
+    "coffee-loader": "^0.7.3",
+    "css-loader": "^3.0.0",
+    "json-loader": "^0.5.7",
+    "mocha": "^6.2.0",
+    "mock-fs": "^4.10.0",
+    "script-loader": "^0.7.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "*",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1",
+    "webpack-node-externals": "^1.7.2",
+    "webpack-stylish": "^0.1.8"
+  },
+  "homepage": "https://github.com/art-suite/art-suite",
   "license": "ISC",
   "name": "art-suite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/art-suite/art-suite.git"
+  },
   "script": {
     "testInBrowser": "webpack-dev-server --progress"
   },
